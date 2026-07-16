@@ -336,7 +336,6 @@ GitHub
 
 https://github.com/Gurusaiprasadreddy
 
-LinkedIn
 
 
 
