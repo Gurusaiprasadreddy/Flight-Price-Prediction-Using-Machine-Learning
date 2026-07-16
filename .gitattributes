@@ -1,0 +1,25 @@
+# Auto detect text files and normalize line endings
+* text=auto
+
+# Python
+*.py text
+
+# Jupyter Notebook
+*.ipynb text
+
+# Markdown
+*.md text
+
+# CSV
+*.csv text
+
+# Excel Files
+*.xlsx binary
+
+# Images
+*.png binary
+*.jpg binary
+*.jpeg binary
+
+# Model Files
+*.pkl binary
