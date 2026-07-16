@@ -187,9 +187,7 @@ The model successfully predicts airline ticket prices with high accuracy.
 
 ```
 Flight-Price-Prediction-Using-Machine-Learning/
-
 │
-
 ├── dataset/
 │   ├── Data_Train.xlsx
 │   ├── Test_set.xlsx
@@ -199,27 +197,40 @@ Flight-Price-Prediction-Using-Machine-Learning/
 │   └── Flight_Price_Prediction.ipynb
 │
 ├── images/
-│   ├── flight_price_distribution.png
-│   ├── airline_distribution.png
-│   ├── airline_vs_price.png
-│   ├── duration_vs_price.png
+│   ├── flights_by_source.png
+│   ├── flights_by_destination.png
+│   ├── distribution_of_total_stops.png
+│   ├── ticket_price_by_number_of_stops.png
+│   ├── flights_by_journey_month.png
+│   ├── journey_month_vs_ticket_price.png
+│   ├── departure_hour_distribution.png
+│   ├── arrival_hour_distribution.png
+│   ├── flight_duration_distribution.png
+│   ├── duration_vs_ticket_price.png
 │   ├── correlation_heatmap.png
-│   ├── feature_importance.png
-│   └── model_comparison.png
+│   ├── outlier_detection_in_ticket_prices.png
+│   ├── pairplot_numeric_features.png
+│   ├── top_15_important_features.png
+│   ├── actual_vs_predicted_flight_prices.png
+│   ├── actual_vs_predicted_flight_prices_with_regression_line.png
+│   ├── prediction_error_distribution.png
+│   ├── residual_distribution.png
+│   └── model_comparison_based_on_r2_score.png
 │
 ├── models/
-│   ├── Flight_Price_Prediction_Model.pkl
-│   └── Model_Features.pkl
+│   └── random_forest_model.pkl
 │
 ├── outputs/
-│   ├── Flight_Price_Predictions.csv
-│   ├── Model_Comparison.csv
-│   └── Processed_Flight_Dataset.csv
+│   ├── processed_flight_data.csv
+│   ├── predictions.csv
+│   ├── model_comparison.csv
+│   └── evaluation_metrics.csv
 │
 ├── README.md
 ├── requirements.txt
 ├── LICENSE
-└── .gitignore
+├── .gitignore
+└── .gitattributes
 ```
 
 ---
