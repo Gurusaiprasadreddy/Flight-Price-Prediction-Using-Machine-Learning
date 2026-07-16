@@ -1,0 +1,4 @@
+Model,R2 Score
+Linear Regression,0.7153123630596543
+Decision Tree,0.8595534218250132
+Random Forest,0.903133285263366
